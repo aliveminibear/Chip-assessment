@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Chip\InterestAccount\Service;
+namespace ChipAssessment\Service;
 
-use Chip\InterestAccount\Model\InterestAccount;
-use Chip\InterestAccount\Model\Transaction;
-use Chip\InterestAccount\Repository\TransactionRepositoryInterface;
-use Chip\InterestAccount\ValueObject\Money;
+use ChipAssessment\Model\InterestAccount;
+use ChipAssessment\Model\Transaction;
+use ChipAssessment\Repository\TransactionRepositoryInterface;
+use ChipAssessment\ValueObject\Money;
 use DateTimeImmutable;
 
 final class InterestCalculationService

@@ -1,5 +1,5 @@
 {
-    "name": "chip/interest-account",
+    "name": "chip/assessment",
     "description": "Interest Account Library for Chip",
     "type": "library",
     "require": {
@@ -12,12 +12,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Chip\\InterestAccount\\": "src/"
+            "ChipAssessment\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Chip\\InterestAccount\\Tests\\": "tests/"
+            "ChipAssessment\\Tests\\": "tests/"
         }
     },
     "scripts": {
