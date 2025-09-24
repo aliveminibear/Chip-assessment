@@ -1,0 +1,12 @@
+.git
+vendor
+coverage
+node_modules
+.idea
+.vscode
+.DS_Store
+Thumbs.db
+.phpunit.cache
+phpunit.xml.cache
+composer.phar
+
