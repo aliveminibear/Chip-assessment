@@ -1,0 +1,27 @@
+{
+    "name": "chip/interest-account",
+    "description": "Interest Account Library for Chip",
+    "type": "library",
+    "require": {
+        "php": ">=8.0",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0",
+        "mockery/mockery": "^1.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Chip\\InterestAccount\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Chip\\InterestAccount\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit",
+        "test-coverage": "phpunit --coverage-html coverage"
+    }
+}
