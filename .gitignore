@@ -34,3 +34,8 @@ temp/
 .php-cs-fixer.cache
 
 
+
+.phpunit.cache
+phpunit.xml.cache
+
+desktop.ini
